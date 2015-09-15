@@ -1,0 +1,61 @@
+.btn {
+  border: 2px solid;
+  border-radius: 40px;
+  font-size: 13px;
+}
+.btn_white {
+  &:hover {
+    color: $accent-color-hover;
+  }
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.btn_small {
+  padding: 8px 40px;
+}
+.btn_large {
+  padding: 15px 40px;
+}
+
+.btn_fill {
+  background: $accent-color;
+  color: #fff;
+  border-color: $accent-color;
+  &:hover {
+    color: #fff;
+    background: $accent-color-hover;
+    border-color: $accent-color-hover;
+  }
+  &:focus {
+    color: #fff;
+    background: $accent-color-hover;
+    border-color: $accent-color-hover;
+  }
+}
+.btn_accent {
+
+  color: $accent-color;
+  border-color: $accent-color;
+  &:hover {
+    color: #fff;
+    background: $accent-color;
+    border-color: $accent-color;
+  }
+  &:focus {
+    color: #fff;
+    background: $accent-color;
+    border-color: $accent-color;
+  }
+}
+.btn__sign-up {
+  width: 80%;
+  height: 55px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: $sans-serif;
+  font-weight: $light;
+
+}
+

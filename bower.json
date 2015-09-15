@@ -1,0 +1,27 @@
+{
+  "name": "sedna",
+  "private": true,
+  "dependencies": {
+    "animate.css": "~3.4.0",
+    "bootstrap-sass": "~3.3.5",
+    "fancybox": "~2.1.5",
+    "flexslider": "~2.5.0",
+    "font-awesome": "~4.4.0",
+    "modernizr": "~2.8.1",
+    "slick-carousel": "~1.5.8",
+    "wow": "wowjs#~1.1.2"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.3.0"
+  }
+}
